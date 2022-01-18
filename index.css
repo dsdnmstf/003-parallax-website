@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  /* height: 70vh; */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.body .bir {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.body .bir::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(./img/bg.jpg);
+  opacity: 0.5;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.body .baslik {
+  background-color: aqua;
+  padding: 0.8rem;
+  border: 8px solid violet;
+  width: min-content;
+
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-color: rgb(95, 3, 95);
+  border-left-color: rgb(95, 3, 95);
+  border-right-color: rgb(165, 8, 165);
+  border-bottom-color: rgb(165, 8, 165);
+}
+.body .baslik h1 {
+  background-color: rgb(117, 115, 115);
+  color: white;
+  letter-spacing: 0.3rem;
+  font-family: "Lato", sans-serif;
+  font-size: 48px;
+  padding: 2rem;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: min-content;
+  font-weight: 400;
+}
+
+.body .banner-bir--h3 {
+  color: #666666;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+.banner-bir--p {
+  font-family: sans-serif;
+  color: #666666;
+  line-height: 28.8px;
+  font-size: 16px;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 0 5rem 4rem;
+}
+
+.body .iki {
+  height: 76vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.body .iki:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(./img/bg2.jpg);
+  opacity: 0.6;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  opacity: 0.7;
+}
+.body .iki .img {
+  width: 30vw;
+  /* margin-bottom: 25rem; */
+  /* position: absolute;
+  top: 36vh;
+  left: 35%; */
+}
+
+.banner-iki-h3 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #282e34;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+.banner-iki--p {
+  font-family: sans-serif;
+  color: white;
+  line-height: 28.8px;
+  font-size: 16px;
+  background-color: #282e34;
+  text-align: center;
+  padding: 0 5.5rem 4rem;
+}
+
+.body .üc {
+  z-index: 1;
+  height: 77vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.body .üc:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(./img/bg3.jpg);
+  opacity: 0.7;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.banner-üc-baslik {
+  padding: 0.5rem;
+  border: 6px solid violet;
+
+  border-top-color: rgb(95, 3, 95);
+  border-left-color: rgb(95, 3, 95);
+  border-right-color: rgb(165, 8, 165);
+  border-bottom-color: rgb(165, 8, 165);
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.banner-üc--h1 {
+  background-color: #4d4d4d;
+  color: white;
+  letter-spacing: 0.3rem;
+  font-family: "Lato", sans-serif;
+  font-size: 42px;
+  padding: 0.4rem;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  width: auto;
+  font-weight: 400;
+}
+.banner-üc--h3 {
+  color: #666666;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 1.8rem;
+}
+.banner-üc--p {
+  font-family: sans-serif;
+  color: #666666;
+  line-height: 28.8px;
+  font-size: 16px;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 0 5rem 4rem;
+}
+
+.body .dört {
+  z-index: 1;
+  position: relative;
+  height: 76vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body .dört:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(./img/bg4.jpg);
+  opacity: 0.7;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.banner-dört-baslik {
+  padding: 0.5rem;
+  border: 6px solid violet;
+
+  border-top-color: rgb(95, 3, 95);
+  border-left-color: rgb(95, 3, 95);
+  border-right-color: rgb(165, 8, 165);
+  border-bottom-color: rgb(165, 8, 165);
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.banner-dört--h1 {
+  background-color: #4d4d4d;
+  color: white;
+  letter-spacing: 0.3rem;
+  font-family: "Lato", sans-serif;
+  font-size: 42px;
+  padding: 0.4rem;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  width: auto;
+  font-weight: 400;
+}
+.banner-dört--h3 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #282e34;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+.banner-dört--p {
+  font-family: sans-serif;
+  color: white;
+  line-height: 28.8px;
+  font-size: 16px;
+  background-color: #282e34;
+  text-align: center;
+  padding: 0 5.5rem 4rem;
+}
+.body .bes {
+  z-index: 1;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body .bes::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(./img/bg.jpg);
+  opacity: 0.7;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  opacity: 0.5;
+}
+.banner-bes-baslik {
+  padding: 1rem;
+  border: 8px solid violet;
+
+  border-top-color: rgb(95, 3, 95);
+  border-left-color: rgb(95, 3, 95);
+  border-right-color: rgb(165, 8, 165);
+  border-bottom-color: rgb(165, 8, 165);
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.banner-bes-h1 {
+  background-color: #4d4d4d;
+  color: white;
+  letter-spacing: 0.3rem;
+  font-family: "Lato", sans-serif;
+  font-size: 48px;
+  padding: 2rem;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-decoration: underline;
+  width: auto;
+  font-weight: 400;
+}
